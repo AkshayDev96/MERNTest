@@ -14,6 +14,6 @@ app.use(bodyParser.json())
 
 app.use('/api',userRoutes)
 
-app.listen(8000,()=>{
+app.listen(5000,()=>{
     console.log("Server started...!")
 })
